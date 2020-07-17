@@ -104,12 +104,3 @@ class jwxt:
         selector = etree.HTML(scorepage.content.decode())
         GPA =  selector.xpath('//*[@id="pjxfjd"]/text()')[0][11:]
         return GPA
-
-if __name__ == "__main__":
-    url = "https://jwxt0.ahu.edu.cn"
-    user = "Y01814243"
-    passwd = "ahu2018wzj813"
-    stu=stu_info(user,passwd)
-    jw=jwxt(stu,url)
-    jw.login()
-    jw.get_GPA()
