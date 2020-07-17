@@ -1,0 +1,4 @@
+tensorflow==1.7.0rc1
+Keras==2.1.5
+Pillow==5.0.0
+h5py==2.8.0
