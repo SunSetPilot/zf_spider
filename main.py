@@ -3,9 +3,9 @@ import zfspider
 from time import sleep
 import time
 
-user = "Y01814243"
-passwd = "ahu2018wzj813"
-url = "https://jwxt2.ahu.edu.cn"
+user = "" #学号
+passwd = "" #密码
+url = "https://jwxt2.ahu.edu.cn" #学校教务系统地址
 stu=zfspider.stu_info(user,passwd)
 jw=zfspider.jwxt(stu,url)
 
@@ -27,5 +27,5 @@ while True:
             "text":"成绩已更新 ",
             "desp":desp
         }
-        requests.post("https://sc.ftqq.com/SCU89184Te6eab74b46fc6cdf2d358d25aa8771415f0ef512ec051.send",data=data)
+        requests.post("https://sc.ftqq.com/*.send",data=data) #微信消息接口 https://sc.ftqq.com
     sleep(1800)
