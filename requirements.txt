@@ -3,7 +3,7 @@ Keras==2.1.5
 Pillow==5.0.0
 PyMySQL==0.9.3
 requests==2.18.4
-tensorflow==1.7.0rc1
+tensorflow==2.5.0rc0
 lxml==4.5.2
 urllib3==1.22
 numpy==1.19.0
