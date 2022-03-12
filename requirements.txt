@@ -1,6 +1,6 @@
 APScheduler==3.6.3
 Keras==2.1.5
-Pillow==5.0.0
+Pillow==9.0.1
 PyMySQL==0.9.3
 requests==2.18.4
 tensorflow==1.7.0rc1
